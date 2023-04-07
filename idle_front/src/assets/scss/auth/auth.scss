@@ -1,0 +1,128 @@
+/** AUTH SECTION **/
+
+.background {
+  background: url(../../img/IDLEPics.png) no-repeat 0.1px;
+  background-size: 100%;
+}
+
+.Auth {
+  background-color: #121418;
+  min-height: 100vh;
+  &__Menu {
+    padding: 20px;
+  }
+  &__Logo {
+    width: 200px;
+    img {
+      width: 100%;
+    }
+  }
+  &__Category {
+    display: flex;
+    list-style: none;
+    li {
+      color: #fff;
+      font-size: 1.3em;
+      padding-right: 20px;
+      &:hover {
+        color: #f932d4;
+        transition: all linear 300ms;
+      }
+    }
+    a {
+      text-decoration: none;
+      &:active {
+        color: #f932d4;
+      }
+    }
+  }
+}
+
+/** LOGIN SECTION**/
+
+.Login {
+  padding-top: 20px;
+  &__Description {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    h1 {
+      padding-bottom: 10px;
+    }
+    p {
+      color: #808387;
+    }
+  }
+  &__Form {
+    width: 40%;
+    margin: 50px auto;
+  }
+  &__ForgotPassword {
+    color: #fff;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: transparent;
+    background: linear-gradient(to right, #57bf9c, #57bf9c, #dece7f);
+    color: #000;
+    font-size: 1.1em;
+    i {
+      font-size: 1.5em;
+    }
+  }
+}
+
+/** REGISTER SECTION**/
+
+.Register {
+    padding-top: 20px;
+    &__Description {
+      width: 70%;
+      margin: 0 auto;
+      color: #fff;
+      text-align: center;
+      h1 {
+        padding-bottom: 10px;
+      }
+      p {
+        color: #808387;
+      }
+    }
+    &__Form {
+      width: 40%;
+      margin: 50px auto;
+    }
+  
+    input {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .btn-primary {
+      width: 100%;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: transparent;
+      background: linear-gradient(to right, #57bf9c, #57bf9c, #dece7f);
+      color: #000;
+      font-size: 1.1em;
+      i {
+        font-size: 1.5em;
+      }
+    }
+  }
+  

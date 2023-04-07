@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+textarea:focus, input:focus{
+  border-radius: 5px;
+  outline: none;
+}
+
+// Variable overrides first
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// google fonts
+
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+a,
+span,
+small,
+input::placeholder,
+button {
+  font-family: "Press Start 2P", monospace;
+}
+// scrollbar
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+* {
+  scrollbar-width: none;
+  scrollbar-color: #20212c;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 14px;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #20212c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6a6b74;
+  border-radius: 10px;
+  border: transparent;
+  padding: 5px;
+}

@@ -1,0 +1,26 @@
+/** HOME SECTION **/
+
+ .homebackground {
+     background: url(../../img/IDLEPics.png) no-repeat 0.1px;
+     background-size: 100%;
+     overflow-x: hidden;
+     overflow-x: hidden;
+ }
+
+ .fixed {
+     position: fixed;
+ }
+.Home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    color: #fff;
+}
+.intro {
+    padding-top: 4em;
+    text-align: center;
+    position: sticky;
+}
+
+/** NAVBAR AREA **/
